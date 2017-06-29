@@ -4,7 +4,7 @@ test:
     ignore: false
     command: fastlane lint
     
-  test:
+  scan:
     ignore: false
     command: fastlane test
      
