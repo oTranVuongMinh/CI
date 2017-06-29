@@ -3,11 +3,7 @@ test:
   checksytle:
     ignore: false
     command: fastlane lint
-
-  build:
-    ignore: false
-    command: fastlane build
-
+    
   test:
     ignore: false
     command: fastlane test
