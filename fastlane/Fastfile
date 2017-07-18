@@ -64,6 +64,10 @@ platform :ios do
             output_directory: ".framgia-ci-reports/code_coverage/"
         )
     end
+    
+    lane :beta do 
+    
+    end
     # You can define as many lanes as you want
 
     after_all do |lane|
