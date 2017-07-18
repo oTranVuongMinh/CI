@@ -12,6 +12,7 @@
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
 fastlane_version "2.42.0"
+xcversion(version: "~> 8.3")
 
 default_platform :ios
 
@@ -45,7 +46,7 @@ platform :ios do
             project: "CI.xcodeproj",
             scheme: "CI",
             code_coverage: true,
-            devices: ['iPhone 6','iPhone 5s'],
+            devices: ['iPhone 6'],
             output_style: "rspec",
             output_types: "html",
             output_files: "unit_test.html",
