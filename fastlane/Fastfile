@@ -12,7 +12,7 @@
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
 fastlane_version "2.42.0"
-xcversion(version: "~> 8.3")
+xcversion(version: "~> 9.2")
 
 default_platform :ios
 
@@ -46,7 +46,7 @@ platform :ios do
             project: "CI.xcodeproj",
             scheme: "CI",
             code_coverage: true,
-            devices: ['iPhone 6'],
+            devices: ['iPhone 8'],
             output_style: "rspec",
             output_types: "html",
             output_files: "unit_test.html",
@@ -61,7 +61,7 @@ platform :ios do
             proj: "CI.xcodeproj",
             html: true,
             source_directory: "CI/",
-            output_directory: ".framgia-ci-reports/code_coverage/"
+            output_directory: ".framgia-ci-reports/coverage/"
         )
     end
     
