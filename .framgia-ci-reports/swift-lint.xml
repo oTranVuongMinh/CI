@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<checkstyle version="4.3">
-	<file name="/Users/minhtran/Documents/Git/CI/CI/AppDelegate.swift">
-		<error line="16" column="0" severity="warning" message="Line should be 120 characters or less: currently 144 characters" source="swiftlint.rules.line_length"/>
-	</file>
-</checkstyle>
