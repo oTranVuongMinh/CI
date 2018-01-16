@@ -61,7 +61,7 @@ platform :ios do
             proj: "CI.xcodeproj",
             html: true,
             source_directory: "CI/",
-            output_directory: ".framgia-ci-reports/coverage/"
+            output_directory: ".framgia-ci-reports/code_coverage/"
         )
     end
     
